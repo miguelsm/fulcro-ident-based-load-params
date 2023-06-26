@@ -1,0 +1,15 @@
+{:paths   ["src/main" "resources"]
+ :deps    {com.fulcrologic/fulcro {:mvn/version "3.6.2"}
+           com.taoensso/timbre    {:mvn/version "5.1.2"}
+           com.wsscode/pathom     {:mvn/version "2.4.0"}
+           edn-query-language/eql {:mvn/version "2021.07.18"}
+           http-kit/http-kit      {:mvn/version "2.7.0-RC1"}
+           org.clojure/clojure    {:mvn/version "1.11.1"}
+           ring/ring-core         {:mvn/version "1.10.0"}}
+ :aliases {:dev {:extra-paths ["src/dev"]
+                 :extra-deps  {binaryage/devtools            {:mvn/version "1.0.6"}
+                               cider/cider-nrepl             {:mvn/version "0.30.0"}
+                               org.clojure/clojurescript     {:mvn/version "1.11.60"}
+                               org.clojure/tools.namespace   {:mvn/version "1.4.4"}
+                               refactor-nrepl/refactor-nrepl {:mvn/version "3.6.0"}
+                               thheller/shadow-cljs          {:mvn/version "2.22.9"}}}}}

@@ -1,0 +1,19 @@
+{
+  "name": "fulcro-ident-based-load-params",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "build": "shadow-cljs compile main",
+    "dev": "shadow-cljs server"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.22.9"
+  }
+}
